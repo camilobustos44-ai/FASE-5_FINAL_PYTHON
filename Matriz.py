@@ -68,7 +68,7 @@ def auditar_inventario():
         if pedido > 0:
             print(f"{nombre:<25} | Pedir: {pedido} unidades")
         else:
-            print(f"{nombre:<25} | No requiere pedido (Stock OK)")
+            print(f"{nombre:<25} | No requiere pedido (Unidades actuales: {stock_actual}")
 
 # Ejecución del programa
 if __name__ == "__main__":
